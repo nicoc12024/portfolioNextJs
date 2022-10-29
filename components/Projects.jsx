@@ -17,37 +17,37 @@ function Projects() {
           <ProjectItem
             title="Portfolio"
             backgroundImg={portfolio}
-            projectUrl="/property"
+            projectUrl="/portfolio"
             tech="Next JS | Tailwind"
           />
           <ProjectItem
             title="House Marketplace"
             backgroundImg={housemarketplace}
-            projectUrl="/property"
+            projectUrl="/house-marketplace"
             tech="React JS | Firebase | CSS"
           />
           <ProjectItem
             title="Movie Data Base"
             backgroundImg={moviedatabase}
-            projectUrl="/crypto"
+            projectUrl="/movie-data-base"
             tech="React JS | Firebase | CSS"
           />
           <ProjectItem
             title="E-commerce"
             backgroundImg={ecommerce}
-            projectUrl="/netflix"
+            projectUrl="/e-comerce"
             tech="React JS | Firebase | CSS"
           />
           <ProjectItem
             title="Travel Website"
             backgroundImg={travelmockup}
-            projectUrl="/twitch"
+            projectUrl="/travel-website-mockup"
             tech="React JS | Firebase | CSS"
           />
           <ProjectItem
             title="Shoe Landing Page"
             backgroundImg={landing}
-            projectUrl="/twitch"
+            projectUrl="/shoe-landing-page"
             tech="JavaScript | CSS"
           />
           <ProjectItem
