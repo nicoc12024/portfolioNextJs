@@ -57,19 +57,16 @@ function Navbar() {
 
       {/* Mobile Menu */}
       {/* Overlay */}
+      {/* Side Drawer Menu */}
       <div
-        className={
-          nav
-            ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70 ease-in-out duration-300"
-            : ""
-        }
+        className={nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70 ease-in duration-200" : ""}
       >
         {/* Side Drawer Menu */}
         <div
           className={
             nav
-              ? "overflow-y-auto flex flex-col fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] px-8 pb-3 ease-in duration-300"
-              : "fixed left-[-150%] top-0 p-10 ease-in duration-300"
+              ? "overflow-y-auto flex flex-col fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] px-8 pb-3 ease-in duration-200"
+              : "overflow-y-auto flex flex-col fixed left-[-150%] top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] px-8 pb-3 ease-in duration-200"
           }
         >
           <div>
