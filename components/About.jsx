@@ -2,9 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import AboutImg from "../public/assets/about.jpg";
 
-const About = () => {
+function About() {
   return (
-    <div className="w-full lg:h-screen py-20 flex items-center">
+    <div id="about" className="w-full lg:h-screen py-20 flex items-center">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8 px-6">
         <div className="col-span-2">
           <p className="uppercase text-xl tracking-widest text-[#5651e5]">About</p>
@@ -36,6 +36,6 @@ const About = () => {
       </div>
     </div>
   );
-};
+}
 
 export default About;

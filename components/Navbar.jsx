@@ -29,22 +29,22 @@ function Navbar() {
         </Link>
         <div>
           <ul style={{ color: "#1f2937" }} className="hidden md:flex">
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className="ml-10 text-sm uppercase">
               <Link href="/">Home</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className="ml-10 text-sm uppercase">
               <Link href="/#about">About</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className="ml-10 text-sm uppercase">
               <Link href="/#skills">Skills</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className="ml-10 text-sm uppercase">
               <Link href="/#projects">Projects</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className="ml-10 text-sm uppercase">
               <Link href="/resume">Resume</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
+            <li className="ml-10 text-sm uppercase">
               <Link href="/#contact">Contact</Link>
             </li>
           </ul>
@@ -59,7 +59,11 @@ function Navbar() {
       {/* Overlay */}
       {/* Side Drawer Menu */}
       <div
-        className={nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70 ease-in duration-200" : ""}
+        className={
+          nav
+            ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70 ease-in duration-200"
+            : ""
+        }
       >
         {/* Side Drawer Menu */}
         <div

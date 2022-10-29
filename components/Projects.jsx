@@ -7,7 +7,7 @@ import portfolio from "../public/assets/img/portfolio.png";
 import comingsoon from "../public/assets/img/comingsoon.jpg";
 import ProjectItem from "./ProjectItem";
 
-const Projects = () => {
+function Projects() {
   return (
     <div id="projects" className="w-full">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
@@ -60,6 +60,6 @@ const Projects = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Projects;
