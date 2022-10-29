@@ -39,7 +39,7 @@ const Projects = () => {
             tech="React JS | Firebase | CSS"
           />
           <ProjectItem
-            title="Travel Website Mockup"
+            title="Travel Website"
             backgroundImg={travelmockup}
             projectUrl="/twitch"
             tech="React JS | Firebase | CSS"
@@ -51,7 +51,7 @@ const Projects = () => {
             tech="JavaScript | CSS"
           />
           <ProjectItem
-            title="New and renovated e-commerce coming soon!"
+            title="E-commerce coming soon!"
             backgroundImg={comingsoon}
             projectUrl="/twitch"
             tech="React | Tailwind | NodeJs | Express | MongoDB"
