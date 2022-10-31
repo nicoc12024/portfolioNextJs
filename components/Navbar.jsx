@@ -29,8 +29,8 @@ function Navbar() {
     <div
       className={
         shadow
-          ? "fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300 backdrop-blur-md"
-          : "fixed w-full h-20 z-[100] backdrop-blur-md"
+          ? "fixed w-full h-20 shadow-xl z-[100]  bg-[#ecf0f3] ease-in-out duration-300"
+          : "fixed w-full h-20 z-[100]  bg-[#ecf0f3]"
       }
     >
       <div className="flex justify-between items-center w-full h-full px-5 2xl:px-16">
@@ -59,11 +59,8 @@ function Navbar() {
             <li className="ml-10 text-sm uppercase">
               <Link href="/#projects">Projects</Link>
             </li>
-            <li className="ml-10 text-sm uppercase">
-              <Link href="/resume">Resume</Link>
-            </li>
-            <li className="ml-10 text-sm uppercase">
-              <Link href="/#contact">Contact</Link>
+                      <li className="ml-10 text-sm uppercase">
+              <Link href="/">Contact</Link>
             </li>
           </ul>
           {/* Hamburger Icon */}
@@ -133,12 +130,8 @@ function Navbar() {
                   Projects
                 </li>
               </Link>
-              <Link href="/resume">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
-                  Resume
-                </li>
-              </Link>
-              <Link href="/#contact">
+              
+              <Link href="/">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Contact
                 </li>
@@ -171,14 +164,7 @@ function Navbar() {
                     <AiOutlineMail />
                   </div>
                 </Link>
-                <Link href="/resume">
-                  <div
-                    onClick={() => setNav(!nav)}
-                    className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
-                  >
-                    <BsFillPersonLinesFill />
-                  </div>
-                </Link>
+                
               </div>
             </div>
           </div>

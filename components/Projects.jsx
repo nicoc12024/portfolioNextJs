@@ -35,7 +35,7 @@ function Projects() {
           <ProjectItem
             title="E-commerce"
             backgroundImg={ecommerce}
-            projectUrl="/e-comerce"
+            projectUrl="/e-commerce"
             tech="React JS | Firebase | CSS"
           />
           <ProjectItem
@@ -43,12 +43,6 @@ function Projects() {
             backgroundImg={travelmockup}
             projectUrl="/travel-website-mockup"
             tech="React JS | Firebase | CSS"
-          />
-          <ProjectItem
-            title="Shoe Landing Page"
-            backgroundImg={landing}
-            projectUrl="/shoe-landing-page"
-            tech="JavaScript | CSS"
           />
           <ProjectItem
             title="E-commerce coming soon!"
