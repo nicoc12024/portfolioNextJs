@@ -2,8 +2,15 @@ import { IoLogoSass } from "react-icons/io";
 import { AiFillHtml5, AiFillGithub } from "react-icons/ai";
 import { DiCss3 } from "react-icons/di";
 import { BsFillBootstrapFill } from "react-icons/bs";
-import { SiJavascript, SiFirebase, SiTailwindcss, SiNextdotjs } from "react-icons/si";
+import {
+  SiJavascript,
+  SiFirebase,
+  SiTailwindcss,
+  SiNextdotjs,
+  SiExpress,
+} from "react-icons/si";
 import { FaReact, FaGitAlt } from "react-icons/fa";
+import { GrNode } from "react-icons/gr";
 
 function Skills() {
   return (
@@ -112,7 +119,6 @@ function Skills() {
               </div>
             </div>
           </div>
-
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <div className="m-auto">
@@ -120,6 +126,26 @@ function Skills() {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Git</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <div className="m-auto">
+                <GrNode size="64px" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Node JS (soon)</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <div className="m-auto">
+                <SiExpress size="64px" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Express JS (soon)</h3>
               </div>
             </div>
           </div>

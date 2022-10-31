@@ -53,7 +53,7 @@ function Projects() {
           <ProjectItem
             title="E-commerce coming soon!"
             backgroundImg={comingsoon}
-            projectUrl="/comming-soon"
+            projectUrl="/coming-soon"
             tech="React | Tailwind | NodeJs | Express | MongoDB"
           />
         </div>
