@@ -30,7 +30,7 @@ function Projects() {
             title="Movie Data Base"
             backgroundImg={moviedatabase}
             projectUrl="/movie-data-base"
-            tech="React JS | JavaScript | CSS"
+            tech="React JS | JavaScript | CSS | API"
           />
           <ProjectItem
             title="E-commerce"
