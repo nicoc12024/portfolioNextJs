@@ -8,6 +8,7 @@ import {
   SiTailwindcss,
   SiNextdotjs,
   SiExpress,
+  SiTypescript,
 } from "react-icons/si";
 import { FaReact, FaGitAlt } from "react-icons/fa";
 import { GrNode } from "react-icons/gr";
@@ -85,7 +86,7 @@ function Skills() {
                 <FaReact size="64px" />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>React</h3>
+                <h3>React JS</h3>
               </div>
             </div>
           </div>
@@ -95,7 +96,7 @@ function Skills() {
                 <SiNextdotjs size="64px" />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>NextJs</h3>
+                <h3>Next JS</h3>
               </div>
             </div>
           </div>
@@ -126,6 +127,16 @@ function Skills() {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Git</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <div className="m-auto">
+                <SiTypescript size="64px" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>TypeScript (soon)</h3>
               </div>
             </div>
           </div>

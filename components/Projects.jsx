@@ -18,37 +18,37 @@ function Projects() {
             title="Portfolio"
             backgroundImg={portfolio}
             projectUrl="/portfolio"
-            tech="Next JS | Tailwind"
+            tech="Next JS | React JS | Tailwind"
           />
           <ProjectItem
             title="House Marketplace"
             backgroundImg={housemarketplace}
             projectUrl="/house-marketplace"
-            tech="React JS | Firebase | CSS"
+            tech="React JS | JavaScript | Firebase | CSS"
           />
           <ProjectItem
             title="Movie Data Base"
             backgroundImg={moviedatabase}
             projectUrl="/movie-data-base"
-            tech="React JS | Firebase | CSS"
+            tech="React JS | JavaScript | CSS"
           />
           <ProjectItem
             title="E-commerce"
             backgroundImg={ecommerce}
             projectUrl="/e-commerce"
-            tech="React JS | Firebase | CSS"
+            tech="React JS | JavaScript | Firebase | CSS"
           />
           <ProjectItem
             title="Travel Website"
             backgroundImg={travelmockup}
             projectUrl="/travel-website-mockup"
-            tech="React JS | Firebase | CSS"
+            tech="React JS | JavaScript | CSS"
           />
           <ProjectItem
             title="E-commerce coming soon!"
             backgroundImg={comingsoon}
             projectUrl="/coming-soon"
-            tech="React | Tailwind | NodeJs | Express | MongoDB"
+            tech="React JS | JavaScript | Tailwind | Node JS | Express JS | MongoDB"
           />
         </div>
       </div>

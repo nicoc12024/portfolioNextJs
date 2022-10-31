@@ -17,7 +17,7 @@ function Portfolio() {
         />
         <div className="absolute px-8 top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
           <h2 className="py-2">Portfolio</h2>
-          <h3>Next Js / React JS / Tailwind </h3>
+          <h3>Next JS / React JS / Tailwind </h3>
         </div>
       </div>
 
@@ -26,12 +26,10 @@ function Portfolio() {
           <p>Project</p>
           <h2 className="mb-2">Overview</h2>
           <p>
-            This project it's a marketplace built for mobile devices using React JS and is
-            hosted on Firebase. Users are able to register their account with an email or
-            with a Google Account, list properties, edit details, edit list details,
-            contact landlord and change password. User authentication is available so you
-            can signup and signin to your account with an email address in order to save
-            your favorite properties.
+            This project is my portfolio. I am very excited about this powerful framework,
+            how quickly and fast you can build and deploy a website is mindblowing. Next
+            personal project that comes into my mind I will not doubt any second and I
+            will choose to code it with Next JS.
           </p>
           <a
             href="https://github.com/nicoc12024/portfolioNextJs"
@@ -53,10 +51,10 @@ function Portfolio() {
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Next Js
+                <RiRadioButtonFill className="pr-1" /> Next JS
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> React
+                <RiRadioButtonFill className="pr-1" /> React JS
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Tailwind

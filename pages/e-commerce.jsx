@@ -17,7 +17,7 @@ function Ecommerce() {
         />
         <div className="absolute px-8 top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
           <h2 className="py-2">E-commerce</h2>
-          <h3> React JS / CSS / Firebase</h3>
+          <h3> React JS / JavaScript / CSS / Firebase</h3>
         </div>
       </div>
 
@@ -26,12 +26,10 @@ function Ecommerce() {
           <p>Project</p>
           <h2 className="mb-2">Overview</h2>
           <p>
-            This project it's a marketplace built for mobile devices using React JS and is
-            hosted on Firebase. Users are able to register their account with an email or
-            with a Google Account, list properties, edit details, edit list details,
-            contact landlord and change password. User authentication is available so you
-            can signup and signin to your account with an email address in order to save
-            your favorite properties.
+            E-commerce built during the "Frontend development with React" course. Being my
+            very first e-commerce using a library I learned the core concepts and
+            foundations of react. Some of the hooks used are useState, useEffect,
+            useContext, useParams and also we were able to implement a custom hook.
           </p>
           <a
             href="https://github.com/nicoc12024/ecommerceproject"
@@ -53,13 +51,13 @@ function Ecommerce() {
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> React
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> CSS
+                <RiRadioButtonFill className="pr-1" /> React JS
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> JavaScript
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> CSS
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Firebase
