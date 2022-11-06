@@ -9,9 +9,10 @@ import {
   SiNextdotjs,
   SiExpress,
   SiTypescript,
+  SiRedux,
 } from "react-icons/si";
 import { FaReact, FaGitAlt } from "react-icons/fa";
-import { GrNode } from "react-icons/gr";
+import { GrNode, GrMysql } from "react-icons/gr";
 
 function Skills() {
   return (
@@ -93,6 +94,16 @@ function Skills() {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <div className="m-auto">
+                <SiRedux size="64px" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>React Redux (soon)</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <div className="m-auto">
                 <SiNextdotjs size="64px" />
               </div>
               <div className="flex flex-col items-center justify-center">
@@ -157,6 +168,16 @@ function Skills() {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Express JS (soon)</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <div className="m-auto">
+                <GrMysql size="64px" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>MySQL (soon)</h3>
               </div>
             </div>
           </div>
