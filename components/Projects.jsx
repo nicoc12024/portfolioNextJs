@@ -3,7 +3,7 @@ import housemarketplace from "../public/assets/img/housemarketplace.png";
 import moviedatabase from "../public/assets/img/moviedatabase.png";
 import travelmockup from "../public/assets/img/travelmockup.png";
 import portfolio from "../public/assets/img/portfolio.png";
-import comingsoon from "../public/assets/img/comingsoon.jpg";
+import ecommerceRedux from "../public/assets/img/ecommerce-redux.png";
 import ProjectItem from "./ProjectItem";
 
 function Projects() {
@@ -14,25 +14,25 @@ function Projects() {
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="Portfolio"
+            title="Portfolio!"
             backgroundImg={portfolio}
             projectUrl="/portfolio"
             tech="Next JS | React JS | Tailwind"
           />
           <ProjectItem
-            title="House Marketplace"
+            title="House Marketplace Context API!"
             backgroundImg={housemarketplace}
             projectUrl="/house-marketplace"
             tech="React JS | JavaScript | Firebase | CSS"
           />
           <ProjectItem
-            title="Movie Data Base"
+            title="Movie Data Base Context API!"
             backgroundImg={moviedatabase}
             projectUrl="/movie-data-base"
             tech="React JS | JavaScript | CSS | API"
           />
           <ProjectItem
-            title="E-commerce"
+            title="E-commerce with Context API!"
             backgroundImg={ecommerce}
             projectUrl="/e-commerce"
             tech="React JS | JavaScript | Firebase | CSS"
@@ -40,14 +40,14 @@ function Projects() {
           <ProjectItem
             title="Travel Website"
             backgroundImg={travelmockup}
-            projectUrl="/travel-website-mockup"
+            projectUrl="/travel-website-mockup!"
             tech="React JS | JavaScript | CSS"
           />
           <ProjectItem
-            title="E-commerce coming soon!"
-            backgroundImg={comingsoon}
-            projectUrl="/coming-soon"
-            tech="React JS | JavaScript | Tailwind | Node JS | Express JS | MongoDB"
+            title="E-commerce with Redux!"
+            backgroundImg={ecommerceRedux}
+            projectUrl="/e-commerce-redux"
+            tech="React JS | React Redux | JavaScript | Tailwind"
           />
         </div>
       </div>
