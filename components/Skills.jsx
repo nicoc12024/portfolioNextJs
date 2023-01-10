@@ -98,7 +98,7 @@ function Skills() {
                 <SiRedux size="64px" />
               </div>
               <div className="flex flex-col items-center text-center justify-center">
-                <h3>React Redux (soon)</h3>
+                <h3>React Redux</h3>
               </div>
             </div>
           </div>
@@ -158,7 +158,7 @@ function Skills() {
                 <GrNode size="64px" />
               </div>
               <div className="flex flex-col items-center text-center justify-center">
-                <h3>Node JS (soon)</h3>
+                <h3>Node JS</h3>
               </div>
             </div>
           </div>
@@ -168,7 +168,7 @@ function Skills() {
                 <SiExpress size="64px" />
               </div>
               <div className="flex flex-col items-center text-center justify-center">
-                <h3>Express JS (soon)</h3>
+                <h3>Express JS</h3>
               </div>
             </div>
           </div>
@@ -178,7 +178,7 @@ function Skills() {
                 <GrMysql size="64px" />
               </div>
               <div className="flex flex-col items-center text-center justify-center">
-                <h3>MySQL (soon)</h3>
+                <h3>MySQL</h3>
               </div>
             </div>
           </div>
@@ -188,7 +188,7 @@ function Skills() {
                 <SiSequelize size="64px" />
               </div>
               <div className="flex flex-col items-center text-center justify-center">
-                <h3>SiSequelize (soon)</h3>
+                <h3>SiSequelize</h3>
               </div>
             </div>
           </div>
