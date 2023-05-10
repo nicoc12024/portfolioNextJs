@@ -17,7 +17,7 @@ function Ecommerce() {
         />
         <div className="absolute px-8 top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
           <h2 className="py-2">E-commerce</h2>
-          <h3> React JS / JavaScript / CSS / Firebase</h3>
+          <h3> React JS / CSS / Firebase</h3>
         </div>
       </div>
 
@@ -52,9 +52,6 @@ function Ecommerce() {
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> React JS
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> JavaScript
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> CSS

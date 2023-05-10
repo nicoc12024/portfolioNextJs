@@ -3,35 +3,49 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 import ProfileLogo from "../public/assets/profile.png";
+import { HiOutlineMail } from "react-icons/hi";
 
 function Navbar() {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
 
   const handleNav = () => {
-    setNav(!nav);
+    setNav((prevNav) => !prevNav);
+  };
+
+  const handleShadow = () => {
+    setShadow(window.scrollY >= 90);
   };
 
   useEffect(() => {
-    const handleShadow = () => {
-      if (window.scrollY >= 90) {
-        setShadow(true);
-      } else {
-        setShadow(false);
-      }
-    };
     window.addEventListener("scroll", handleShadow);
+    return () => {
+      window.removeEventListener("scroll", handleShadow);
+    };
   }, []);
 
+  const navItems = ["Home", "About", "Skills", "Projects", "Contact"];
+  const navLinks = ["/", "/#about", "/#skills", "/#projects", "/"];
+  const socialLinksMobile = [
+    {
+      href: "https://www.linkedin.com/in/nicocabello/",
+      icon: <FaLinkedinIn />,
+    },
+    {
+      href: "https://github.com/nicoc12024",
+      icon: <FaGithub />,
+    },
+    {
+      href: "mailto:nicoc12024@gmail.com",
+      icon: <HiOutlineMail />,
+    },
+  ];
   return (
     <div
-      className={
-        shadow
-          ? "fixed w-full h-20 shadow-xl z-[100]  bg-[#ecf0f3] ease-in-out duration-300"
-          : "fixed w-full h-20 z-[100]  bg-[#ecf0f3]"
-      }
+      className={`fixed w-full h-20 z-[100] bg-[#ecf0f3] ${
+        shadow ? "shadow-xl ease-in-out duration-300" : ""
+      }`}
     >
       <div className="flex justify-between items-center w-full h-full px-5 2xl:px-16">
         <Link href="/">
@@ -46,24 +60,15 @@ function Navbar() {
           </a>
         </Link>
         <div>
+          {/* Desktop Menu */}
           <ul style={{ color: "#1f2937" }} className="hidden md:flex">
-            <li className="ml-10 text-sm uppercase">
-              <Link href="/">Home</Link>
-            </li>
-            <li className="ml-10 text-sm uppercase">
-              <Link href="/#about">About</Link>
-            </li>
-            <li className="ml-10 text-sm uppercase">
-              <Link href="/#skills">Skills</Link>
-            </li>
-            <li className="ml-10 text-sm uppercase">
-              <Link href="/#projects">Projects</Link>
-            </li>
-                      <li className="ml-10 text-sm uppercase">
-              <Link href="/">Contact</Link>
-            </li>
+            {navItems.map((item, index) => (
+              <li key={index} className="ml-10 text-sm uppercase">
+                <Link href={navLinks[index]}>{item}</Link>
+              </li>
+            ))}
           </ul>
-          {/* Hamburger Icon */}
+          {/* Burger menu button visible only mobile */}
           <div style={{ color: "#1f2937" }} onClick={handleNav} className="md:hidden">
             <AiOutlineMenu size={30} />
           </div>
@@ -71,33 +76,20 @@ function Navbar() {
       </div>
 
       {/* Mobile Menu */}
-      {/* Overlay */}
-      {/* Side Drawer Menu */}
-      <div
-        className={
-          nav
-            ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70 ease-in duration-200"
-            : ""
-        }
-      >
-        {/* Side Drawer Menu */}
-        <div
-          className={
-            nav
-              ? "overflow-y-auto flex flex-col fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] px-8 pb-3 ease-in duration-200"
-              : "overflow-y-auto flex flex-col fixed left-[-150%] top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] px-8 pb-3 ease-in duration-200"
-          }
-        >
-          <div>
+      {nav && (
+        <div className="md:hidden fixed left-0 top-0 w-full h-screen bg-black/70 ease-in duration-200">
+          <div className="overflow-y-auto flex flex-col fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] px-8 pb-3 ease-in duration-200">
             <div className="flex w-full items-center justify-between">
+              {/* Logo */}
               <Link href="/">
                 <a>
                   <Image src={ProfileLogo} width="100" height="100" alt="/" />
                 </a>
               </Link>
+              {/* Close mobile menu button */}
               <div
                 onClick={handleNav}
-                className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
+                className="rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer"
               >
                 <AiOutlineClose />
               </div>
@@ -107,69 +99,34 @@ function Navbar() {
                 Let&#39;s build something legendary together
               </p>
             </div>
-          </div>
-          <div className="py-4 h-full flex flex-col justify-between">
-            <ul className="uppercase">
-              <Link href="/">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
-                  Home
-                </li>
-              </Link>
-              <Link href="/#about">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
-                  About
-                </li>
-              </Link>
-              <Link href="/#skills">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
-                  Skills
-                </li>
-              </Link>
-              <Link href="/#projects">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
-                  Projects
-                </li>
-              </Link>
-              
-              <Link href="/">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
-                  Contact
-                </li>
-              </Link>
-            </ul>
-            <div className="pt-10">
-              <p className="uppercase tracking-widest text-[#5651e5]">
-                Let&#39;s Connect
-              </p>
-              <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                <a
-                  href="https://www.linkedin.com/in/nicocabello/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <FaLinkedinIn />
-                  </div>
-                </a>
-                <a href="https://github.com/nicoc12024" target="_blank" rel="noreferrer">
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <FaGithub />
-                  </div>
-                </a>
-                <Link href="/#contact">
-                  <div
-                    onClick={() => setNav(!nav)}
-                    className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
-                  >
-                    <AiOutlineMail />
-                  </div>
-                </Link>
-                
+            <div className="py-4 h-full flex flex-col justify-between">
+              {/* Mobile navItems */}
+              <ul className="uppercase">
+                {navItems.map((item, index) => (
+                  <Link key={index} href={navLinks[index]}>
+                    <li onClick={handleNav} className="py-4 text-sm">
+                      {item}
+                    </li>
+                  </Link>
+                ))}
+              </ul>
+              <div className="pt-10">
+                <p className="uppercase tracking-widest text-[#5651e5]">Let's Connect</p>
+                {/* Mobile Social Links */}
+                <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
+                  {socialLinksMobile.map((link, index) => (
+                    <a key={index} href={link.href} target="_blank" rel="noreferrer">
+                      <div className="rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                        {link.icon}
+                      </div>
+                    </a>
+                  ))}
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      )}
     </div>
   );
 }

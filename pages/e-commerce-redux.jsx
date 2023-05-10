@@ -17,7 +17,7 @@ function HouseMarketplace() {
         />
         <div className="absolute px-8 top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
           <h2 className="py-2">E-commerce with Redux</h2>
-          <h3>React JS / React Redux / JavaScript / Tailwind / Firebase</h3>
+          <h3>React JS / React Redux / Tailwind </h3>
         </div>
       </div>
 
@@ -26,12 +26,12 @@ function HouseMarketplace() {
           <p>Project</p>
           <h2 className="mb-2">Overview</h2>
           <p>
-            This project it's a marketplace built for mobile devices using React JS and is
-            hosted on Firebase. Users are able to register their account with an email or
-            with a Google Account, list properties, edit details, edit list details,
-            contact landlord and change password. User authentication is available so you
-            can signup and signin to your account with an email address in order to save
-            your favorite properties.
+            This project is a mobile-responsive demo marketplace built using React JS and
+            Redux, with the primary goal of showcasing my ability to handle state
+            management effectively. The app allows users to add or delete items to and
+            from the shopping cart. Although no further actions are implemented within the
+            shopping cart, the project highlights my proficiency in using Redux for
+            managing application state.
           </p>
           <a
             href="https://github.com/nicoc12024/ecommerce-redux"
@@ -59,13 +59,7 @@ function HouseMarketplace() {
                 <RiRadioButtonFill className="pr-1" /> React Redux
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> JavaScript
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> CSS
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Firebase
+                <RiRadioButtonFill className="pr-1" /> Tailwind
               </p>
             </div>
           </div>
