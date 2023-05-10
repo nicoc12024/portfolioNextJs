@@ -10,8 +10,8 @@ function About() {
           <p className="uppercase text-xl tracking-widest text-[#5651e5]">About</p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">
-            I specialize in building mobile-responsive front-end UI applications and have
-            a passion for learning new technologies. With a strong foundation in HTML,
+            I specialize in developing modern, dynamic web applications and am deeply
+            passionate about exploring new technologies. With a strong foundation in HTML,
             CSS, JavaScript, and React JS, I understand that there is more than one way to
             accomplish a task and am always open to discovering the best tool for the job.
           </p>
