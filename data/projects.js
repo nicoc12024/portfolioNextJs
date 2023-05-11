@@ -2,9 +2,9 @@ import ecommerce from "../public/assets/img/ecommerce.png";
 import housemarketplace from "../public/assets/img/housemarketplace.png";
 import moviedatabase from "../public/assets/img/moviedatabase.png";
 import travelmockup from "../public/assets/img/travelmockup.png";
-import portfolio from "../public/assets/img/portfolio.png";
 import ecommerceRedux from "../public/assets/img/ecommerce-redux.png";
 import socialhub from "../public/assets/img/socialhub.png";
+import portfolio from "../public/assets/img/portfolio.png";
 
 export const projects = [
   {
@@ -48,12 +48,5 @@ export const projects = [
     backgroundImg: travelmockup,
     projectUrl: "/travel-website-mockup",
     tech: "React JS | CSS",
-  },
-  {
-    id: 6,
-    title: "E-commerce with Context API",
-    backgroundImg: ecommerce,
-    projectUrl: "/e-commerce",
-    tech: "React JS | Firebase | CSS",
   },
 ];
