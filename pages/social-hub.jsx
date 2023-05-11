@@ -41,7 +41,7 @@ function SocialHub() {
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
           <a
-            href="https://house-marketplace-woad-kappa.vercel.app/"
+            href="https://www.youtube.com/watch?v=_eEC2FPjMe4"
             target="_blank"
             rel="noreferrer"
           >
