@@ -26,12 +26,14 @@ function SocialHub() {
           <p>Project</p>
           <h2 className="mb-2">Overview</h2>
           <p>
-            Social Hub is an interactive social media platform that fosters connection and
-            engagement among its users. This platform provides a space for users to share
-            posts, bringing together different ideas and experiences into a shared feed. A
-            unique aspect of this project is the user profile page, which displays an
-            engagement graph alongside user information and posts, offering a snapshot of
-            user activity.
+            Social Hub is a social media platform designed for user engagement and
+            collaboration. Leveraging technologies like Tailwind, React, Python, Django,
+            Firebase, and SQLite, this platform empowers users to share posts, reply to
+            posts and comments, like posts and replies, and customize their user profile
+            pages. Users also have the ability to create accounts and securely manage
+            their passwords. A standout feature of the user profile page is the
+            incorporation of an engagement graph, providing users with a data-driven view
+            of their activity and interaction on the platform.
           </p>
           <a
             href="https://github.com/nicoc12024/social-hub-front"

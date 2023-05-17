@@ -6,13 +6,12 @@ import {
   SiFirebase,
   SiTailwindcss,
   SiNextdotjs,
-  SiTypescript,
   SiRedux,
   SiPython,
   SiDjango,
 } from "react-icons/si";
-import { FaReact, FaGitAlt } from "react-icons/fa";
-import { GrNode, GrMysql } from "react-icons/gr";
+import { FaReact, FaGitAlt, FaJava } from "react-icons/fa";
+import { GrMysql } from "react-icons/gr";
 
 export const skills = [
   {
@@ -56,44 +55,38 @@ export const skills = [
     icon: <SiNextdotjs size="56px" />,
   },
   {
-    id: 9,
-    language: "TypeScript",
-    icon: <SiTypescript size="56px" />,
-    update: "In Progress...",
-  },
-  {
-    id: 10,
+    id: 8,
     language: "Firebase",
     icon: <SiFirebase size="56px" />,
   },
   {
-    id: 11,
+    id: 9,
     language: "Python",
     icon: <SiPython size="56px" />,
   },
   {
-    id: 12,
+    id: 10,
     language: "Django",
     icon: <SiDjango size="56px" />,
   },
   {
-    id: 13,
+    id: 11,
     language: "MySQL",
     icon: <GrMysql size="56px" />,
   },
   {
-    id: 14,
-    language: "Node JS",
-    icon: <GrNode size="56px" />,
+    id: 12,
+    language: "Java",
+    icon: <FaJava size="56px" />,
     update: "In Progress...",
   },
   {
-    id: 15,
+    id: 13,
     language: "Git",
     icon: <FaGitAlt size="56px" />,
   },
   {
-    id: 16,
+    id: 14,
     language: "GitHub",
     icon: <AiFillGithub size="56px" />,
   },
