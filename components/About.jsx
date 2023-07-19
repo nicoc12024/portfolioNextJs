@@ -10,7 +10,7 @@ function About() {
           <p className="uppercase text-xl tracking-widest text-[#5651e5]">About</p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">
-            I am a Software Developer from Argentina based in Stockholm Sweden. I have 1+
+            I am a Software Developer from Argentina based in Stockholm, Sweden. I have 1+
             year of work experience creating and developing solutions that enhance user
             experiences. With a keen eye for detail and a strong problem-solving mindset,
             I am dedicated to delivering high-quality solutions. I understand that there
