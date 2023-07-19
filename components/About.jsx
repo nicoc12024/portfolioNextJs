@@ -10,23 +10,20 @@ function About() {
           <p className="uppercase text-xl tracking-widest text-[#5651e5]">About</p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">
-            I specialize in developing modern, dynamic web applications and I am deeply
-            passionate about exploring new technologies. With a strong foundation in HTML,
-            CSS, JavaScript, and React JS, I understand that there is more than one way to
-            accomplish a task and am always open to discovering the best tool for the job.
+            I am a Software Developer from Argentina based in Stockholm Sweden. I have 1+
+            year of work experience creating and developing solutions that enhance user
+            experiences. With a keen eye for detail and a strong problem-solving mindset,
+            I am dedicated to delivering high-quality solutions. I understand that there
+            is more than one way to accomplish a task so I am always open to discovering
+            the best tool for the job.
           </p>
           <p className="py-2 text-gray-600">
-            My web development journey began in 2021, and since then, I have built
-            multiple websites and recently completed a 3-month internship at a Swedish
-            start-up. During my internship, I gained valuable experience working within an
-            interdisciplinary team, and enhanced my skills in Tailwind, React, Django, and
-            Git.
+            I have used different languages and frameworks to build web applications such
+            JavaScript, Tailwind, React JS, Python, Django, NodeJS, Express JS, MySql,
+            Firebase and Amazon S3. What I enjoy most is to learn and use new technologies
+            to build either frontend or backend applications.
           </p>
-          <p className="py-2 text-gray-600">
-            I am a quick learner, highly adaptable, and in addition to my proficiency in
-            building front-end applications, I am also enthusiastic about expanding my
-            skills into backend technologies.
-          </p>
+
           <Link href="/#projects">
             <p className="py-2 text-gray-600 underline cursor-pointer">
               Check out some of my latest projects.
