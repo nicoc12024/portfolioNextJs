@@ -72,27 +72,17 @@ export const skills = [
     icon: <SiFirebase size="56px" />,
   },
   {
-    id: 11,
-    language: "Python",
-    icon: <SiPython size="56px" />,
-  },
-  {
     id: 12,
-    language: "Django",
-    icon: <SiDjango size="56px" />,
-  },
-  {
-    id: 13,
     language: "MySQL",
     icon: <GrMysql size="56px" />,
   },
   {
-    id: 14,
+    id: 13,
     language: "Git",
     icon: <FaGitAlt size="56px" />,
   },
   {
-    id: 15,
+    id: 14,
     language: "GitHub",
     icon: <AiFillGithub size="56px" />,
   },

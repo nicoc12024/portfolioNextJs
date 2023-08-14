@@ -3,16 +3,16 @@ import housemarketplace from "../public/assets/img/housemarketplace.png";
 import moviedatabase from "../public/assets/img/moviedatabase.png";
 import travelmockup from "../public/assets/img/travelmockup.png";
 import ecommerceRedux from "../public/assets/img/ecommerce-redux.png";
-import socialhub from "../public/assets/img/socialhub.png";
+import socialapp from "../public/assets/img/socialapp.png";
 import portfolio from "../public/assets/img/portfolio.png";
 
 export const projects = [
   {
     id: 0,
-    title: "Social Hub - FullStack",
-    backgroundImg: socialhub,
-    projectUrl: "/social-hub",
-    tech: "React Js | Tailwind | Firebase | Django | SQLite",
+    title: "Social App - FullStack",
+    backgroundImg: socialapp,
+    projectUrl: "/social-app",
+    tech: "React Js | Tailwind | Material-UI | Node JS | Express JS | MySQL",
   },
   {
     id: 1,

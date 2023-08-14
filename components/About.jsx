@@ -19,9 +19,9 @@ function About() {
           </p>
           <p className="py-2 text-gray-600">
             I have used different languages and frameworks to build web applications such
-            JavaScript, Tailwind, React JS, Python, Django, NodeJS, Express JS, MySql,
-            Firebase and Amazon S3. What I enjoy most is to learn and use new technologies
-            to build either frontend or backend applications.
+            JavaScript, Tailwind, React JS, NodeJS, Express JS, MySql, Firebase and Amazon
+            S3. What I enjoy most is to learn and use new technologies to build either
+            frontend or backend applications.
           </p>
 
           <Link href="/#projects">
