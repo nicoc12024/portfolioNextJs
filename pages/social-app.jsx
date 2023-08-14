@@ -5,7 +5,7 @@ import Link from "next/link";
 
 function SocialHub() {
   return (
-    <div className="w-full">
+    <div className="w-full overflow-hidden">
       <div className="w-screen h-[50vh] relative">
         <div className="absolute top-0 left-0 w-full h-[50vh] bg-black/70 z-10" />
         <Image
@@ -63,6 +63,9 @@ function SocialHub() {
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Express JS
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> JWT
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> MySQL
