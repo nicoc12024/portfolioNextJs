@@ -1,5 +1,5 @@
 import Image from "next/image";
-import socialhub from "../public/assets/img/socialhub.png";
+import socialapp from "../public/assets/img/socialapp.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
@@ -12,12 +12,12 @@ function SocialHub() {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={socialhub}
+          src={socialapp}
           alt="/"
         />
         <div className="absolute px-8 top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Social Hub</h2>
-          <h3>React Js / Tailwind / Firebase / Django / SQLite</h3>
+          <h2 className="py-2">Social App</h2>
+          <h3>React JS / Tailwind / Material-UI / Node JS / Express JS / MySQL</h3>
         </div>
       </div>
 
@@ -26,24 +26,19 @@ function SocialHub() {
           <p>Project</p>
           <h2 className="mb-2">Overview</h2>
           <p>
-            Social Hub is a social media platform designed for user engagement and
-            collaboration. Leveraging technologies like Tailwind, React, Python, Django,
-            Firebase, and SQLite, this platform empowers users to share posts, reply to
-            posts and comments, like posts and replies, and customize their user profile
-            pages. Users also have the ability to create accounts and securely manage
-            their passwords. A standout feature of the user profile page is the
-            incorporation of an engagement graph, providing users with a data-driven view
-            of their activity and interaction on the platform.
+            Social media app where you can create an account, post sharing,
+            follow/unfollow system, customizable user profile page (including profile and
+            cover picture and basic info), like a comment functionalities.
           </p>
           <a
-            href="https://github.com/nicoc12024/social-hub-front"
+            href="https://github.com/nicoc12024/social_media_app"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
           <a
-            href="https://www.youtube.com/watch?v=_eEC2FPjMe4"
+            href="https://github.com/nicoc12024/social_media_app"
             target="_blank"
             rel="noreferrer"
           >
@@ -58,13 +53,19 @@ function SocialHub() {
                 <RiRadioButtonFill className="pr-1" /> React JS
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Taiwlwind
+                <RiRadioButtonFill className="pr-1" /> Tailwind
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Django
+                <RiRadioButtonFill className="pr-1" /> Material-UI
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Firebase
+                <RiRadioButtonFill className="pr-1" /> Node JS
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> Express JS
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> MySQL
               </p>
             </div>
           </div>

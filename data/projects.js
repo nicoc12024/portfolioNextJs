@@ -14,13 +14,7 @@ export const projects = [
     projectUrl: "/social-app",
     tech: "React Js | Tailwind | Material-UI | Node JS | Express JS | MySQL",
   },
-  {
-    id: 1,
-    title: "Portfolio",
-    backgroundImg: portfolio,
-    projectUrl: "/portfolio",
-    tech: "Next JS | React JS | Tailwind",
-  },
+
   {
     id: 2,
     title: "House Marketplace Context API",
@@ -41,12 +35,5 @@ export const projects = [
     backgroundImg: moviedatabase,
     projectUrl: "/movie-data-base",
     tech: "React JS | CSS | API",
-  },
-  {
-    id: 5,
-    title: "Travel Mockup",
-    backgroundImg: travelmockup,
-    projectUrl: "/travel-website-mockup",
-    tech: "React JS | CSS",
   },
 ];
