@@ -26,7 +26,13 @@ function Navbar() {
   }, []);
 
   const navItems = ["Home", "About", "Skills", "Projects", "Contact"];
-  const navLinks = ["/", "/#about", "/#skills", "/#projects", "/"];
+  const navLinks = [
+    "/",
+    "/#about",
+    "/#skills",
+    "/#projects",
+    "mailto:nicoc12024@gmail.com",
+  ];
   const socialLinksMobile = [
     {
       href: "https://www.linkedin.com/in/nicocabello/",

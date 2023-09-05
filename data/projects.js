@@ -1,10 +1,7 @@
-import ecommerce from "../public/assets/img/ecommerce.png";
 import housemarketplace from "../public/assets/img/housemarketplace.png";
 import moviedatabase from "../public/assets/img/moviedatabase.png";
-import travelmockup from "../public/assets/img/travelmockup.png";
 import ecommerceRedux from "../public/assets/img/ecommerce-redux.png";
 import socialapp from "../public/assets/img/socialapp.png";
-import portfolio from "../public/assets/img/portfolio.png";
 
 export const projects = [
   {
@@ -12,9 +9,8 @@ export const projects = [
     title: "Social App - FullStack",
     backgroundImg: socialapp,
     projectUrl: "/social-app",
-    tech: "React Js | Tailwind | Material-UI | Node JS | Express JS | MySQL",
+    tech: "React Js | Tailwind | Material-UI | Node JS | Express JS | MySQL | Unit Testing",
   },
-
   {
     id: 2,
     title: "House Marketplace Context API",

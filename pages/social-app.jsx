@@ -17,7 +17,10 @@ function SocialHub() {
         />
         <div className="absolute px-8 top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
           <h2 className="py-2">Social App</h2>
-          <h3>React JS / Tailwind / Material-UI / Node JS / Express JS / MySQL</h3>
+          <h3>
+            React JS / Tailwind / Material-UI / Node JS / Express JS / MySQL / Unit
+            Testing
+          </h3>
         </div>
       </div>
 
@@ -31,14 +34,14 @@ function SocialHub() {
             cover picture and basic info), like a comment functionalities.
           </p>
           <a
-            href="https://github.com/nicoc12024/social_media_app"
+            href="https://github.com/nicoc12024/react_node_social_app"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
           <a
-            href="https://github.com/nicoc12024/social_media_app"
+            href="https://github.com/nicoc12024/react_node_social_app"
             target="_blank"
             rel="noreferrer"
           >
@@ -69,6 +72,9 @@ function SocialHub() {
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> MySQL
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> Unit Testing
               </p>
             </div>
           </div>

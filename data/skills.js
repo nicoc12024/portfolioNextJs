@@ -7,12 +7,11 @@ import {
   SiTailwindcss,
   SiNextdotjs,
   SiRedux,
-  SiPython,
-  SiDjango,
   SiNodedotjs,
   SiExpress,
+  SiJest,
 } from "react-icons/si";
-import { FaReact, FaGitAlt, FaJava } from "react-icons/fa";
+import { FaReact, FaGitAlt } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
 
 export const skills = [
@@ -85,5 +84,10 @@ export const skills = [
     id: 14,
     language: "GitHub",
     icon: <AiFillGithub size="56px" />,
+  },
+  {
+    id: 15,
+    language: "Unit Testing",
+    icon: <SiJest size="56px" />,
   },
 ];

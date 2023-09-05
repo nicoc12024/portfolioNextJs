@@ -13,15 +13,13 @@ function About() {
             I am a Software Developer from Argentina based in Stockholm, Sweden. I have 1+
             year of work experience creating and developing solutions that enhance user
             experiences. With a keen eye for detail and a strong problem-solving mindset,
-            I am dedicated to delivering high-quality solutions. I understand that there
-            is more than one way to accomplish a task so I am always open to discovering
-            the best tool for the job.
+            I am dedicated to delivering high-quality solutions.
           </p>
           <p className="py-2 text-gray-600">
-            I have used different languages and frameworks to build web applications such
-            JavaScript, Tailwind, React JS, NodeJS, Express JS, MySql, Firebase and Amazon
-            S3. What I enjoy most is to learn and use new technologies to build either
-            frontend or backend applications.
+            I have used different languages and tools to build web applications such
+            JavaScript, React JS, Tailwind, Material-UI, NodeJS, Express JS, MySQL, Unit
+            Testing, Firebase and Amazon S3. What I enjoy most is to learn and use new
+            technologies to build either frontend or backend applications.
           </p>
 
           <Link href="/#projects">
