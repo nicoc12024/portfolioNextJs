@@ -37,9 +37,9 @@ Hello and welcome! I'm a developer with a strong focus on frontend and fullstack
 
 ## Getting Started
 
-To get started with this project, first run the development server:
+After cloning the repository, you can run:
 
-npm run dev or yarn dev
+npm install or yarn install then npm run dev or yarn dev
 
 ## Contact Information
 
