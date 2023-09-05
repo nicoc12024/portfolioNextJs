@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Hello and welcome! I'm a developer with a strong focus on frontend and fullstack technologies. I'm currently based in Stockholm, Sweden, but I'm originally from Argentina. I'm deeply passionate about web development and I'm eager to contribute to exciting projects. I've recently completed a one-year web development course, I had a 4-month internship at a startup, and worked as a freelancer. I'm actively looking for opportunities to grow my skills in a professional environment.
+Hello and welcome! I'm a developer with a strong focus on frontend and fullstack technologies. I'm currently based in Stockholm, Sweden, but I'm originally from Argentina. I'm deeply passionate about web development and I'm eager to contribute to exciting projects. I've recently completed a one-year web development course, I had a 4-month internship at a startup, and I worked as a freelancer. I'm actively looking for opportunities to grow my skills in a professional environment.
 
 ## Skills
 
