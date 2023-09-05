@@ -1,4 +1,4 @@
-# [Nicolás]'s Portfolio
+# Nicolás's Portfolio
 
 ## Introduction
 
