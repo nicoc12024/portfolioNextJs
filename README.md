@@ -39,15 +39,11 @@ Hello and welcome! I'm a developer with a strong focus on frontend and fullstack
 
 To get started with this project, first run the development server:
 
-npm run dev
-
-# or
-
-yarn dev
+npm run dev or yarn dev
 
 ## Contact Information
 
 If you would like to collaborate on a project, have any questions, or simply want to connect, feel free to reach out to me.
 
 - Email: [nicoc12024@gmail.com](mailto:nicoc12024@gmail.com)
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/nicocabello)
+- LinkedIn: [https://www.linkedin.com/in/nicocabello](https://www.linkedin.com/in/nicocabello)
