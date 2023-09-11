@@ -11,6 +11,7 @@ Hello and welcome! I'm a developer with a strong focus on frontend and fullstack
 - HTML5
 - CSS3
 - JavaScript
+- TypeScript
 - SQL
 
 ### Frameworks and Libraries

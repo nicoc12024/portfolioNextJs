@@ -10,6 +10,7 @@ import {
   SiNodedotjs,
   SiExpress,
   SiJest,
+  SiTypescript,
 } from "react-icons/si";
 import { FaReact, FaGitAlt } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
@@ -42,31 +43,36 @@ export const skills = [
   },
   {
     id: 5,
+    language: "TypeScript",
+    icon: <SiTypescript size="56px" />,
+  },
+  {
+    id: 6,
     language: "Node JS",
     icon: <SiNodedotjs size="56px" />,
   },
   {
-    id: 6,
+    id: 7,
     language: "Express JS",
     icon: <SiExpress size="56px" />,
   },
   {
-    id: 7,
+    id: 8,
     language: "React JS",
     icon: <FaReact size="56px" />,
   },
   {
-    id: 8,
+    id: 9,
     language: "Redux",
     icon: <SiRedux size="56px" />,
   },
   {
-    id: 9,
+    id: 10,
     language: "Next JS",
     icon: <SiNextdotjs size="56px" />,
   },
   {
-    id: 10,
+    id: 11,
     language: "Firebase",
     icon: <SiFirebase size="56px" />,
   },
