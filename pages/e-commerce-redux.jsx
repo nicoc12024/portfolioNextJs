@@ -11,7 +11,7 @@ function HouseMarketplace() {
         <Image
           className="absolute z-1"
           layout="fill"
-          objectFit="cover"
+          objectFit="contain"
           src={ecommerceRedux}
           alt="/"
         />

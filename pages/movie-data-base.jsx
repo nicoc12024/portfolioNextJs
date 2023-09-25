@@ -11,7 +11,7 @@ function MovieDataBase() {
         <Image
           className="absolute z-1"
           layout="fill"
-          objectFit="cover"
+          objectFit="contain"
           src={moviedatabase}
           alt="/"
         />
