@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ecommerceRedux from "../public/assets/img/ecommerce-redux.png";
+import home from "../public/assets/img/home.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
@@ -12,12 +12,15 @@ function HouseMarketplace() {
           className="absolute z-1"
           layout="fill"
           objectFit="contain"
-          src={ecommerceRedux}
+          src={home}
           alt="/"
         />
         <div className="absolute px-8 top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
           <h2 className="py-2">E-commerce with Redux</h2>
-          <h3>React JS / React Redux / Tailwind </h3>
+          <h3>
+            React JS (vite) / React Redux / TypeScript / Tailwind / Node JS / Express JS /
+            MySQL
+          </h3>
         </div>
       </div>
 
@@ -26,22 +29,20 @@ function HouseMarketplace() {
           <p>Project</p>
           <h2 className="mb-2">Overview</h2>
           <p>
-            This project is a mobile-responsive demo marketplace built using React JS and
-            Redux, with the primary goal of showcasing my ability to handle state
-            management effectively. The app allows users to add or delete items to and
-            from the shopping cart. Although no further actions are implemented within the
-            shopping cart, the project highlights my proficiency in using Redux for
-            managing application state.
+            Zone Clocker full-stack application designed to streamline employee schedule
+            management and work zone assignments for companies. It provides a centralized
+            platform for admins to manage employee schedules and work zones, with a focus
+            on time tracking and location-based check-ins and check-outs.
           </p>
           <a
-            href="https://github.com/nicoc12024/ecommerce-redux"
+            href="https://github.com/nicoc12024/zone_clocker"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
           <a
-            href="https://ecommerce-redux-pearl.vercel.app/"
+            href="https://github.com/nicoc12024/zone_clocker"
             target="_blank"
             rel="noreferrer"
           >
@@ -53,13 +54,28 @@ function HouseMarketplace() {
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> React JS
+                <RiRadioButtonFill className="pr-1" /> React JS (vite)
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> React Redux
               </p>
               <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> TypeScript
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Tailwind
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> Node JS
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> Express JS
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> JWT
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> MySQL
               </p>
             </div>
           </div>

@@ -10,14 +10,14 @@ function About() {
           <p className="uppercase text-xl tracking-widest text-[#5651e5]">About</p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">
-            I am a Software Developer from Argentina based in Stockholm, Sweden. I have 1+
-            year of work experience creating and developing solutions that enhance user
-            experiences. With a keen eye for detail and a strong problem-solving mindset,
-            I am dedicated to delivering high-quality solutions.
+            I am a Frontend Developer from Argentina based in Portugal. I have almost 2
+            years of experience developing solutions that enhance user experiences. With a
+            keen eye for detail and a strong problem-solving mindset, I am dedicated to
+            delivering high-quality solutions.
           </p>
           <p className="py-2 text-gray-600">
             I have used different languages and tools to build web applications such
-            JavaScript,TypeScript, React JS, Tailwind, Material-UI, NodeJS, Express JS,
+            JavaScript, TypeScript, React JS, Tailwind, Material-UI, NodeJS, Express JS,
             MySQL, Unit Testing, Firebase and Amazon S3. What I enjoy most is to learn and
             use new technologies to build either frontend or backend applications.
           </p>
