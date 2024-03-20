@@ -10,9 +10,10 @@ function About() {
           <p className="uppercase text-xl tracking-widest text-[#5651e5]">About</p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">
-            I am a Frontend Developer from Argentina based in Portugal. I have almost 2
-            years of experience developing solutions that enhance user experiences. With a
-            keen eye for detail and a strong problem-solving mindset, I am dedicated to
+            I am a Frontend Developer from Argentina. I have +1 year of year of experience
+            developing solutions that enhance user experiences. Experienced in dynamic and
+            fast-paced environments, including a Swedish startup and freelance work. With
+            a keen eye for detail and a strong problem-solving mindset, I am dedicated to
             delivering high-quality solutions.
           </p>
           <p className="py-2 text-gray-600">
