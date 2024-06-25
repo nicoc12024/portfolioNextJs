@@ -27,7 +27,7 @@ function About() {
 
           <Link href="/#projects">
             <p className="py-2 text-gray-600 underline cursor-pointer">
-              Mirá de mis últimos proyectos.
+              Mirá mis últimos proyectos.
             </p>
           </Link>
         </div>
