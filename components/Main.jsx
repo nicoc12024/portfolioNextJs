@@ -10,7 +10,7 @@ function Main() {
             Construyamos el siguiente proyecto juntos
           </p>
           <h1 className="py-4 text-gray-700">
-            Hola, Soy <span className="text-[#5651e5]">Nicolas</span>
+            Hola, Soy <span className="text-[#5651e5]">Nicolás</span>
           </h1>
           <h1 className="py-2 text-gray-700">Desarrollador de Software</h1>
           <p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">

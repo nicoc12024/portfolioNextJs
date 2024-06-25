@@ -1,12 +1,12 @@
-# Nicolás's Portfolio
+# Portfolio de Nicolás
 
 ## Introduction
 
-Hello and welcome! I'm a developer with a strong focus on frontend and fullstack technologies. I'm deeply passionate about web development and I'm eager to contribute to exciting projects. I'm actively looking for opportunities to grow my skills in a professional environment.
+¡Hola y bienvenido! Soy un desarrollador con un fuerte enfoque en tecnologías frontend y backend.
 
 ## Skills
 
-### Languages
+### Lenguajes
 
 - HTML5
 - CSS3
@@ -14,22 +14,23 @@ Hello and welcome! I'm a developer with a strong focus on frontend and fullstack
 - TypeScript
 - SQL
 
-### Frameworks and Libraries
+### Frameworks y Librerías
 
+- Laravel
+- Node.js
+- Express.js
 - React
 - React Query
 - Redux
 - Context API
-- Node.js
-- Express.js
 
-### Databases and Cloud Services
+### Base de datos y Cloud
 
 - MySQL
 - Firebase
 - Amazon S3
 
-### Tools
+### Herramientas
 
 - Git
 - npm
