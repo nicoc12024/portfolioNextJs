@@ -3,48 +3,40 @@ import { AiFillHtml5, AiFillGithub } from "react-icons/ai";
 import { DiCss3 } from "react-icons/di";
 import {
   SiJavascript,
-  SiFirebase,
   SiTailwindcss,
   SiNextdotjs,
   SiRedux,
   SiNodedotjs,
   SiExpress,
-  SiJest,
-  SiTypescript,
 } from "react-icons/si";
-import { FaReact, FaGitAlt } from "react-icons/fa";
+import { FaReact, FaGitAlt, FaLaravel, FaPhp } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
 
 export const skills = [
   {
-    id: 0,
-    language: "HTML",
-    icon: <AiFillHtml5 size="56px" />,
-  },
-  {
     id: 1,
-    language: "CSS",
-    icon: <DiCss3 size="56px" />,
+    language: "Next JS",
+    icon: <SiNextdotjs size="56px" />,
   },
   {
     id: 2,
-    language: "SASS",
-    icon: <IoLogoSass size="56px" />,
+    language: "PHP",
+    icon: <FaPhp size="56px" />,
   },
   {
     id: 3,
-    language: "Tailwind CSS",
-    icon: <SiTailwindcss size="56px" />,
+    language: "Laravel",
+    icon: <FaLaravel size="56px" />,
   },
   {
     id: 4,
-    language: "JavaScript",
-    icon: <SiJavascript size="56px" />,
+    language: "MySQL",
+    icon: <GrMysql size="56px" />,
   },
   {
     id: 5,
-    language: "TypeScript",
-    icon: <SiTypescript size="56px" />,
+    language: "Express JS",
+    icon: <SiExpress size="56px" />,
   },
   {
     id: 6,
@@ -53,8 +45,8 @@ export const skills = [
   },
   {
     id: 7,
-    language: "Express JS",
-    icon: <SiExpress size="56px" />,
+    language: "JavaScript",
+    icon: <SiJavascript size="56px" />,
   },
   {
     id: 8,
@@ -68,32 +60,32 @@ export const skills = [
   },
   {
     id: 10,
-    language: "Next JS",
-    icon: <SiNextdotjs size="56px" />,
-  },
-  {
-    id: 11,
-    language: "Firebase",
-    icon: <SiFirebase size="56px" />,
-  },
-  {
-    id: 12,
-    language: "MySQL",
-    icon: <GrMysql size="56px" />,
-  },
-  {
-    id: 13,
     language: "Git",
     icon: <FaGitAlt size="56px" />,
   },
   {
-    id: 14,
+    id: 11,
     language: "GitHub",
     icon: <AiFillGithub size="56px" />,
   },
   {
+    id: 12,
+    language: "Tailwind CSS",
+    icon: <SiTailwindcss size="56px" />,
+  },
+  {
+    id: 13,
+    language: "SASS",
+    icon: <IoLogoSass size="56px" />,
+  },
+  {
+    id: 14,
+    language: "CSS",
+    icon: <DiCss3 size="56px" />,
+  },
+  {
     id: 15,
-    language: "Unit Testing",
-    icon: <SiJest size="56px" />,
+    language: "HTML",
+    icon: <AiFillHtml5 size="56px" />,
   },
 ];

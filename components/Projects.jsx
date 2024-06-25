@@ -6,9 +6,9 @@ function Projects() {
     <div id="projects" className="w-full">
       <div className="max-w-[1240px] mx-auto px-6 py-16">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
-          Latests Personal Projects
+          Proyectos Personales
         </p>
-        <h2 className="py-4">What I&apos;ve Built</h2>
+        <h2 className="py-4">Lo que he construido</h2>
         <div className="grid md:grid-cols-2 gap-8">
           {projects.map((project) => (
             <ProjectItem

@@ -7,25 +7,27 @@ function About() {
     <div id="about" className="w-full lg:h-screen py-20 flex items-center">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8 px-6">
         <div className="col-span-2">
-          <p className="uppercase text-xl tracking-widest text-[#5651e5]">About</p>
-          <h2 className="py-4">Who I Am</h2>
+          <p className="uppercase text-xl tracking-widest text-[#5651e5]">Acerca de mi</p>
+          <h2 className="py-4">Quién soy?</h2>
           <p className="py-2 text-gray-600">
-            I am a Frontend Developer from Argentina. I have +1 year of year of experience
-            developing solutions that enhance user experiences. Experienced in dynamic and
-            fast-paced environments, including a Swedish startup and freelance work. With
-            a keen eye for detail and a strong problem-solving mindset, I am dedicated to
-            delivering high-quality solutions.
+            Soy un Desarrollador de Software de Argentina con más de 1 año de experiencia
+            en el desarrollo de soluciones que mejoran la experiencia del usuario. Tengo
+            experiencia en entornos dinámicos y de ritmo rápido, incluyendo una startup
+            sueca y trabajos freelance. Con un gran ojo para los detalles y una fuerte
+            mentalidad de resolución de problemas, estoy dedicado a entregar soluciones de
+            alta calidad.
           </p>
           <p className="py-2 text-gray-600">
-            I have used different languages and tools to build web applications such
-            JavaScript, TypeScript, React JS, Tailwind, Material-UI, NodeJS, Express JS,
-            MySQL, Unit Testing, Firebase and Amazon S3. What I enjoy most is to learn and
-            use new technologies to build either frontend or backend applications.
+            He utilizado diferentes lenguajes y herramientas para construir aplicaciones
+            web como Php, Laravel, JavaScript, TypeScript, Node JS, Express JS, React JS,
+            Tailwind, Material-UI, pruebas unitarias, Firebase y Amazon S3. Lo que más
+            disfruto es aprender y usar tecnologías para construir aplicaciones tanto de
+            frontend como de backend.
           </p>
 
           <Link href="/#projects">
             <p className="py-2 text-gray-600 underline cursor-pointer">
-              Check out some of my latest projects.
+              Mirá de mis últimos proyectos.
             </p>
           </Link>
         </div>

@@ -26,19 +26,19 @@ function SocialHub() {
 
       <div className="max-w-[1240px] px-8 mx-auto p-2 grid md:grid-cols-5 gap-8 py-8">
         <div className="col-span-4">
-          <p>Project</p>
-          <h2 className="mb-2">Overview</h2>
+          <p>Proyecto</p>
+          <h2 className="mb-2">Descripción</h2>
           <p>
-            A social media application built with React and Node.js, featuring JWT
-            authentication, post sharing, following system, customizable user profiles,
-            and more.
+            Una aplicación de redes sociales construida con React y Node.js, que cuenta
+            con autenticación JWT, compartir de publicaciones, sistema de seguidores,
+            perfiles de usuario personalizables y más.
           </p>
           <a
             href="https://github.com/nicoc12024/react_node_social_app"
             target="_blank"
             rel="noreferrer"
           >
-            <button className="px-8 py-2 mt-4 mr-8">Code</button>
+            <button className="px-8 py-2 mt-4 mr-8">Código</button>
           </a>
           <a
             href="https://github.com/nicoc12024/react_node_social_app"
@@ -50,7 +50,7 @@ function SocialHub() {
         </div>
         <div className="col-span-4 md:col-span-1 min-w-fit shadow-xl shadow-gray-400 rounded-xl py-4">
           <div className="py-2 px-4">
-            <p className="text-center font-bold pb-2">Technologies</p>
+            <p className="text-center font-bold pb-2">Tecnologías</p>
             <div className="grid grid-cols-3 md:grid-cols-1 text-sm sm:text-base">
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> React JS
@@ -80,7 +80,7 @@ function SocialHub() {
           </div>
         </div>
         <Link href="/#projects">
-          <p className="underline cursor-pointer">Back</p>
+          <p className="underline cursor-pointer">Volver</p>
         </Link>
       </div>
     </div>

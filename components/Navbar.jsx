@@ -25,7 +25,7 @@ function Navbar() {
     };
   }, []);
 
-  const navItems = ["Home", "About", "Skills", "Projects", "Contact"];
+  const navItems = ["Home", "Acerca", "Skills", "Proyectos", "Contacto"];
   const navLinks = [
     "/",
     "/#about",
@@ -102,7 +102,7 @@ function Navbar() {
             </div>
             <div className="border-b border-gray-300 my-4">
               <p className="w-[85%] md:w-[90%] py-4">
-                Let&#39;s build something legendary together
+                Construyamos el siguiente proyecto juntos
               </p>
             </div>
             <div className="py-4 h-full flex flex-col justify-between">
@@ -117,7 +117,7 @@ function Navbar() {
                 ))}
               </ul>
               <div className="pt-10">
-                <p className="uppercase tracking-widest text-[#5651e5]">Let's Connect</p>
+                <p className="uppercase tracking-widest text-[#5651e5]">Seamos Amigos</p>
                 {/* Mobile Social Links */}
                 <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                   {socialLinksMobile.map((link, index) => (

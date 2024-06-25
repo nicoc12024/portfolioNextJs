@@ -5,7 +5,8 @@ import socialapp from "../public/assets/img/socialapp.png";
 export const projects = [
   {
     id: 0,
-    title: "Employee Schedule and Work Zone Management App - FullStack",
+    title:
+      "Aplicación para la Gestión de Horarios de Empleados y Zonas de Trabajo - FullStack",
     backgroundImg: home,
     projectUrl: "/zone-clocker",
     tech: "React JS (vite) | React Redux | TypeScript | Tailwind | Node JS | Express JS | MySQL",

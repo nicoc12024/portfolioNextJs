@@ -26,18 +26,19 @@ function HouseMarketplace() {
 
       <div className="max-w-[1240px] px-8 mx-auto grid md:grid-cols-5 gap-8 py-8">
         <div className="col-span-4">
-          <p>Project</p>
-          <h2 className="mb-2">Overview</h2>
+          <p>Proyecto</p>
+          <h2 className="mb-2">Descripción</h2>
           <p>
-            A blogging platform built with React, TypeScript, Node.js and tested with Unit
-            Testing using Jest and RTL. This application allows users to create an
-            account, write blog posts, edit or delete their own posts, and view posts from
-            other users. It features infinite scrolling, category filtering, and JWT
-            authentication. Non users can use the platform, but they cannot create posts
-            or edit/delete posts.
+            Plataforma de blogs construida con React, TypeScript, Node.js y probada
+            con pruebas unitarias utilizando Jest y RTL. Esta aplicación permite a los
+            usuarios crear una cuenta, escribir publicaciones de blog, editar o eliminar
+            sus propias publicaciones, y ver publicaciones de otros usuarios. Cuenta con
+            desplazamiento infinito, filtrado por categorías y autenticación JWT. Los
+            usuarios no registrados pueden usar la plataforma, pero no pueden crear
+            publicaciones ni editar/eliminar publicaciones.
           </p>
           <a href="https://github.com/nicoc12024/blog" target="_blank" rel="noreferrer">
-            <button className="px-8 py-2 mt-4 mr-8">Code</button>
+            <button className="px-8 py-2 mt-4 mr-8">Código</button>
           </a>
           <a href="https://github.com/nicoc12024/blog" target="_blank" rel="noreferrer">
             <button className="px-8 py-2 mt-4">Demo</button>
@@ -45,7 +46,7 @@ function HouseMarketplace() {
         </div>
         <div className="col-span-4 md:col-span-1 min-w-fit shadow-xl shadow-gray-400 rounded-xl py-4">
           <div className="py-2 px-4">
-            <p className="text-center font-bold pb-2">Technologies</p>
+            <p className="text-center font-bold pb-2">Tecnologías</p>
             <div className="grid grid-cols-3 md:grid-cols-1 text-sm sm:text-base">
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> SCSS
@@ -79,7 +80,7 @@ function HouseMarketplace() {
           </div>
         </div>
         <Link href="/#projects">
-          <p className="underline cursor-pointer">Back</p>
+          <p className="underline cursor-pointer">Volver</p>
         </Link>
       </div>
     </div>
